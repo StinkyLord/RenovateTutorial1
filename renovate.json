@@ -5,5 +5,199 @@
   ],
   "major": {
     "dependencyDashboardApproval": true
-  }
+  },
+  "hostRules": [
+    {
+      "matchHost": "https://maven.pkg.github.com/",
+      "hostType": "maven",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://maven.pkg.github.com/b1-as",
+      "hostType": "maven",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://maven.pkg.github.com/b1-as/b1x-java-utils",
+      "hostType": "maven",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+
+
+    {
+      "matchHost": "https://maven.pkg.github.com/",
+      "hostType": "gradle",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://maven.pkg.github.com/b1-as",
+      "hostType": "gradle",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://maven.pkg.github.com/b1-as/b1x-java-utils",
+      "hostType": "gradle",
+      "username": "servicegithub",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+
+
+    {
+      "matchHost": "https://blockone.jfrog.io",
+      "hostType": "maven",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory",
+      "hostType": "maven",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+        "matchHost": "https://blockone.jfrog.io/artifactory/android-libs",
+        "hostType": "maven",
+        "username": "svc_whitesource",
+        "encrypted": {
+          "password": "redacted"
+        }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1fs-algoteq-libs",
+      "hostType": "maven",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1x-proto-common",
+      "hostType": "maven",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils",
+      "hostType": "maven",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils-release",
+      "hostType": "maven",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+
+
+    {
+      "matchHost": "https://blockone.jfrog.io",
+      "hostType": "gradle",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory",
+      "hostType": "gradle",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+        "matchHost": "https://blockone.jfrog.io/artifactory/android-libs",
+        "hostType": "gradle",
+        "username": "svc_whitesource",
+        "encrypted": {
+          "password": "redacted"
+        }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1fs-algoteq-libs",
+      "hostType": "gradle",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1x-proto-common",
+      "hostType": "gradle",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils",
+      "hostType": "gradle",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils-release",
+      "hostType": "gradle",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    
+    
+    {
+      "matchHost": "https://blockone.jfrog.io",
+      "hostType": "pypi",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io/artifactory/b1fs-b1x-npm-dev-local",
+      "hostType": "npm",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "token": "redacted"
+      }
+    },
+    {
+      "matchHost": "https://blockone.jfrog.io",
+      "hostType": "go",
+      "username": "svc_whitesource",
+      "encrypted": {
+        "password": "redacted"
+      }
+    }
+  ]
 }
