@@ -6,7 +6,12 @@
   "major": {
     "dependencyDashboardApproval": true
   },
-  "registryUrls": [
+ 	"packageRules": [
+		{
+			"matchDataSources": [
+				"maven"
+			],
+			"registryUrls": [
 				"https://maven.pkg.github.com/",
 				"https://maven.pkg.github.com/b1-as",
 				"https://maven.pkg.github.com/b1-as/b1x-java-utils",
@@ -17,7 +22,26 @@
 				"https://blockone.jfrog.io/artifactory/b1x-proto-common",
 				"https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils",
 				"https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils-release"
+			]
+		},
+		{
+			"matchDatasources": [
+				"npm"
 			],
+			"registryUrls": [
+				"https://maven.pkg.github.com/",
+				"https://maven.pkg.github.com/b1-as",
+				"https://maven.pkg.github.com/b1-as/b1x-java-utils",
+				"https://blockone.jfrog.io",
+				"https://blockone.jfrog.io/artifactory",
+				"https://blockone.jfrog.io/artifactory/android-libs",
+				"https://blockone.jfrog.io/artifactory/b1fs-algoteq-libs",
+				"https://blockone.jfrog.io/artifactory/b1x-proto-common",
+				"https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils",
+				"https://blockone.jfrog.io/artifactory/b1fs-b1x-java-utils-release"
+			]
+		}
+	],
   "hostRules": [
     {
       "matchHost": "https://maven.pkg.github.com/",
