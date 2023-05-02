@@ -8,8 +8,8 @@
   },
  	"packageRules": [
 		{
-		"matchPackagePatterns": ["*"],
-		    "enabled": false,
+		        "matchPackagePatterns": ["*"],
+		        "enabled": false
 		},
 		{
 			"matchDatasources": [
