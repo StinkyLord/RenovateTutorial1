@@ -8,11 +8,7 @@
   },
  	"packageRules": [
 		{
-		        "matchPackagePatterns": ["*"],
-		        "enabled": false
-		},
-		{
-			"matchDatasources": [
+			"matchDataSources": [
 				"maven"
 			],
 			"registryUrls": [
