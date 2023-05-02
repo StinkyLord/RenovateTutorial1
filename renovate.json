@@ -8,9 +8,6 @@
   },
   "packageRules": [
 		{
-			"matchDatasources": [
-				"maven"
-			],
 			"registryUrls": [
 				"https://maven.pkg.github.com/",
 				"https://maven.pkg.github.com/b1-as",
@@ -25,9 +22,6 @@
 			]
 		},
 		{
-			"matchDatasources": [
-				"gradle"
-			],
 			"registryUrls": [
 				"https://maven.pkg.github.com/",
 				"https://maven.pkg.github.com/b1-as",
