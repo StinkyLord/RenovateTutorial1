@@ -8,6 +8,10 @@
   },
  	"packageRules": [
 		{
+		"matchPackagePatterns": ["*"],
+		    "enabled": false,
+		},
+		{
 			"matchDatasources": [
 				"maven"
 			],
@@ -26,7 +30,7 @@
 		},
 		{
 			"matchDatasources": [
-				"npm"
+				"gradle"
 			],
 			"registryUrls": [
 				"https://maven.pkg.github.com/",
