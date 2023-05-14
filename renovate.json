@@ -3,10 +3,13 @@
   "extends": [
     "config:base"
   ],
- "packageRules": [
+  "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "groupname": "deps"
+      "groupName": "all dependencies",
+      "groupSlug": "all",
+      "matchPackagePatterns": [
+        "*"
+      ]
     }
   ]
 }
