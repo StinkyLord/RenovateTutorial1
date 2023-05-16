@@ -5,11 +5,8 @@
   ],
   "packageRules": [
     {
-      "groupName": "all dependencies",
-      "groupSlug": "all",
-      "matchPackagePatterns": [
-        "*"
-      ]
+      "matchConfidence": ["high", "very high"],
+      "groupName": "high merge confidence"
     }
   ]
 }
