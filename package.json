@@ -7,6 +7,7 @@
   "dependencies": {
     "commander": "^2.20.0",
     "lodash": "4.17.20",
+    "doesntexist": "0.1.15",
     "@date-io/date-fns": "2.10.0",
     "@date-io/moment": "2.10.0"
   }
