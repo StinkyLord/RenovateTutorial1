@@ -1,72 +1,72 @@
 {
-	"branchPrefix": "whitesource-remediate/",
-	"enabledManagers": [
-		"nuget",
-	],
-	"includeForks": true,
-	"onboarding": false,
-	"requireConfig": "optional",
-	"vulnerabilityAlerts": {
-		"enabled": false,
-		"ignoreUnstable": false,
-		"groupName": null,
-		"schedule": [],
-		"dependencyDashboardApproval": false,
-		"labels": [
-			"security fix"
-		],
-		"commitMessageSuffix": ""
-	},
-	"issueSettings": {
-		"issueType": "DEPENDENCY"
-	},
-	"workflowRules": {
-		"enabled": true,
-		"minVulnerabilitySeverity": "LOW"
-	},
-	"extends": [
-		"github>whitesource/merge-confidence:beta"
-	],
-	"leastVulnerablePackageSettings": {
-		"enabled": false
-	},
-	"packageRules": [
-		{
-			"matchPackagePatterns": [
-				"*"
-			],
-			"enabled": false
-		},
-		{
-			"matchDatasources": [
-				"nuget"
-			],
-			"matchPackageNames": [
-				"Azure.Storage.Blobs",
-				"azure.storage.blobs"
-			],
-			"matchCurrentVersion": "12.3.0",
-			"allowedVersions": ">= 12.13.0",
-			"vulnerabilityAlert": true,
-			"enabled": true,
-			"ignoreUnstable": false,
-			"groupName": null,
-			"schedule": [],
-			"dependencyDashboardApproval": false,
-			"labels": [
-				"security fix"
-			],
-			"prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
-			"prBodyNotes": [
-				"By merging this PR, the below vulnerabilities will be automatically resolved:\n\n| Severity           | <a href='#'><img src='https://whitesource-resources.whitesourcesoftware.com/cvss3.png' width='19' height='20'></a> CVSS Score       |CVE  |\n|---|---|---|\n| ![Medium](https://whitesource-resources.whitesourcesoftware.com/medium_vul_bb.png?) Medium | 4.7 | [CVE-2022-30187](https://www.mend.io/vulnerability-database/CVE-2022-30187) |\n"
-			],
-			"isVulnerabilityAlert": true,
-			"commitMessageSuffix": "",
-			"suppressNotifications": [
-				"prIgnoreNotification",
-				"prEditNotification"
-			]
-		}
-	],
-	"remediations": {}
+  "branchPrefix": "whitesource-remediate/",
+  "enabledManagers": [
+    "nuget"
+  ],
+  "includeForks": true,
+  "onboarding": false,
+  "requireConfig": "optional",
+  "vulnerabilityAlerts": {
+    "enabled": false,
+    "ignoreUnstable": false,
+    "groupName": null,
+    "schedule": [],
+    "dependencyDashboardApproval": false,
+    "labels": [
+      "security fix"
+    ],
+    "commitMessageSuffix": ""
+  },
+  "issueSettings": {
+    "issueType": "DEPENDENCY"
+  },
+  "workflowRules": {
+    "enabled": true,
+    "minVulnerabilitySeverity": "LOW"
+  },
+  "extends": [
+    "github>whitesource/merge-confidence:beta"
+  ],
+  "leastVulnerablePackageSettings": {
+    "enabled": false
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "enabled": false
+    },
+    {
+      "matchDatasources": [
+        "nuget"
+      ],
+      "matchPackageNames": [
+        "Azure.Storage.Blobs",
+        "azure.storage.blobs"
+      ],
+      "matchCurrentVersion": "12.3.0",
+      "allowedVersions": ">= 12.13.0",
+      "vulnerabilityAlert": true,
+      "enabled": true,
+      "ignoreUnstable": false,
+      "groupName": null,
+      "schedule": [],
+      "dependencyDashboardApproval": false,
+      "labels": [
+        "security fix"
+      ],
+      "prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
+      "prBodyNotes": [
+        "By merging this PR, the below vulnerabilities will be automatically resolved:\n\n| Severity           | <a href='#'><img src='https://whitesource-resources.whitesourcesoftware.com/cvss3.png' width='19' height='20'></a> CVSS Score       |CVE  |\n|---|---|---|\n| ![Medium](https://whitesource-resources.whitesourcesoftware.com/medium_vul_bb.png?) Medium | 4.7 | [CVE-2022-30187](https://www.mend.io/vulnerability-database/CVE-2022-30187) |\n"
+      ],
+      "isVulnerabilityAlert": true,
+      "commitMessageSuffix": "",
+      "suppressNotifications": [
+        "prIgnoreNotification",
+        "prEditNotification"
+      ]
+    }
+  ],
+  "remediations": {}
 }
