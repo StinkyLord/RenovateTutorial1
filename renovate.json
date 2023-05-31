@@ -17,13 +17,6 @@
     ],
     "commitMessageSuffix": ""
   },
-  "issueSettings": {
-    "issueType": "DEPENDENCY"
-  },
-  "workflowRules": {
-    "enabled": true,
-    "minVulnerabilitySeverity": "LOW"
-  },
   "extends": [
     "github>whitesource/merge-confidence:beta"
   ],
