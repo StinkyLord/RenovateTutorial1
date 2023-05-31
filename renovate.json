@@ -20,9 +20,6 @@
   "extends": [
     "github>whitesource/merge-confidence:beta"
   ],
-  "leastVulnerablePackageSettings": {
-    "enabled": false
-  },
   "packageRules": [
     {
       "matchPackagePatterns": [
