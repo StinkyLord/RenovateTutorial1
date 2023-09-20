@@ -5,10 +5,15 @@
   "author": "Philip",
   "license": "Apache-2.0",
   "dependencies": {
-    "abcdefg12341515613": "2.20.0",
+    "requests": "0.2.2",
     "lodash": "4.17.20",
     "doesntexist": "0.1.15",
     "@date-io/date-fns": "2.10.0",
-    "@date-io/moment": "2.10.0"
+    "@date-io/moment": "2.10.0",
+    "log": "6.3.0",
+    "debug": "4.3.3",
+    "log4js": "6.9.0",
+    "loglevel": "1.8.0",
+    "strip-ansi": "7.0.0"
   }
 }
