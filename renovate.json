@@ -1,8 +1,5 @@
 {
   "branchPrefix": "whitesource-remediate/",
-  "enabledManagers": [
-    "nuget","npm"
-  ],
   "includeForks": true,
   "onboarding": false,
   "extends": [
